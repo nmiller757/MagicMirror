@@ -13,19 +13,19 @@ Module.register("compliments",{
 	defaults: {
 		compliments: {
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Always remember that you are absolutely unique. Just like everyone else.,<br> - Margaret Mead",
+				"People who think they know everything are a great annoyance to those of us who do. - Isaac Asimov",
+				"We are all here on earth to help others; what on earth the others are here for I don't know. - W. H. Auden"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Behind every great man is a woman rolling her eyes. - Jim Carrey",
+				"Go to Heaven for the climate, Hell for the company. - Mark Twain",
+				"Procrastination is the art of keeping up with yesterday. - Don Marquis"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"I can resist everything except temptation. - Oscar Wilde",
+				"I'm sorry, if you were right, I'd agree with you. - Robin Williams",
+				"A day without sunshine is like, you know, night. - Steve Martin"
 			]
 		},
 		updateInterval: 30000,
@@ -112,7 +112,7 @@ Module.register("compliments",{
 
 		var compliment = document.createTextNode(complimentText);
 		var wrapper = document.createElement("div");
-		wrapper.className = "thin xlarge bright";
+		wrapper.className = "thin large bright";
 		wrapper.appendChild(compliment);
 
 		return wrapper;
